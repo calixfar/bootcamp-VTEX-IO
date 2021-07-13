@@ -1,0 +1,14 @@
+{
+    "custom-app": {
+        "component": "Test"
+    },
+    "list-categories": {
+        "component": "Categories"
+    },
+    "render-specifications": {
+      "component": "RenderSpecifications"
+    },
+    "size-guide": {
+      "component": "SizeGuide"
+    }
+}

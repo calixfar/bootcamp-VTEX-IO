@@ -1,0 +1,8 @@
+query {
+  categories {
+    slug
+    name
+    id
+    hasChildren
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "vendor": "renspets",
+  "name": "app",
+  "version": "0.0.1",
+  "title": "Custom app",
+  "description": "Custom app",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.store-graphql": "2.x",
+    "vtex.product-context": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,10 @@
+
+.containerMessage {
+    transition: all 0.2s;
+}
+.selectedMessage {
+    background-color: sandybrown;
+}
+:global(.vtex-flex-layout-0-x-flexRow--footer) .textContent {
+    color: red;
+}
