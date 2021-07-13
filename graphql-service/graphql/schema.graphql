@@ -1,0 +1,14 @@
+type Department {
+  label: String
+  value: String
+  cities: [City]
+}
+type City {
+  label: String
+  value: String
+}
+
+type Query {
+  departments: [Department]
+  department(value: String!): Department
+}
