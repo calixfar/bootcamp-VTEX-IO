@@ -10,5 +10,8 @@
     },
     "size-guide": {
       "component": "SizeGuide"
+    },
+    "stock-availability": {
+      "component": "Stock"
     }
 }

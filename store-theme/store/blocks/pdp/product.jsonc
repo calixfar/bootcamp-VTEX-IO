@@ -12,6 +12,30 @@
       "product-questions-and-answers"
     ]
   },
+  "modal-trigger#stock-available": {
+    "children": [
+      "rich-text#stock-available",
+      "modal-layout#stock-available"
+    ]
+  },
+  "rich-text#stock-available": {
+    "props": {
+      "text": "Revisar disponibilidad"
+    }
+  },
+  "modal-layout#stock-available": {
+    "children": [
+      "flex-layout.row#stock-available"    
+    ]
+  },
+  "flex-layout.row#stock-available": {
+    "props": {
+      "blockClass": "stock-available"
+    },
+    "children": [
+      "stock-availability"
+    ]
+  },
   "flex-layout.row#specifications-title": {
     "children": [
       "rich-text#specifications"
@@ -99,6 +123,7 @@
       "product-installments",
       "product-separator",
       "product-identifier.product",
+      "modal-trigger#stock-available",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",

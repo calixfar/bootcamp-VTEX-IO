@@ -8,6 +8,7 @@ import {
 import { Clients } from './clients'
 import { departments } from './resolvers/departments'
 import { department } from './resolvers/department'
+import { stock } from './resolvers/stock'
 
 const MEDIUM_TIMEOUT_MS = 2 * 1000
 
@@ -30,7 +31,8 @@ export default new Service<Clients, RecorderState, ParamsContext>({
     resolvers: {
       Query: {
         departments,
-        department
+        department,
+        stock
       },
     },
   },

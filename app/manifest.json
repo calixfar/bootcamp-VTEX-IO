@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "vtex.store-graphql": "2.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "vtex.graphql-example": "0.x"
   },
   "registries": [
     "smartcheckout"

@@ -1,0 +1,11 @@
+query getStock($skuId: String!){
+  stock(skuId: $skuId) {
+    name
+    WarehouseId
+    address
+    lat
+    lng
+    phone
+    schedule
+  }
+}

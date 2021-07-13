@@ -7,8 +7,18 @@ type City {
   label: String
   value: String
 }
+type PickupPoint {
+  name: String
+  WarehouseId: String
+  address: String
+  lat: Float
+  lng: Float
+  phone: String
+  schedule: String
+}
 
 type Query {
   departments: [Department]
   department(value: String!): Department
+  stock(skuId: String!): [PickupPoint]
 }
